@@ -16,7 +16,7 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 
 <p>
-  <img src="https://github.com/nikunj150/Clock_app/assets/141740390/af309d94-e657-4256-919d-8a7731174a7f"hight="400">
-   <img src="https://github.com/nikunj150/Clock_app/assets/141740390/58f54054-41b9-4cf4-b968-1451243fd22c"hight="400">
-   <img src="https://github.com/nikunj150/Clock_app/assets/141740390/1cc50dd5-7741-4da6-ae65-c1805565b362"hight="400">
+  <img src="https://github.com/nikunj150/Clock_app/assets/141740390/af309d94-e657-4256-919d-8a7731174a7f"hight="250">
+   <img src="https://github.com/nikunj150/Clock_app/assets/141740390/58f54054-41b9-4cf4-b968-1451243fd22c"hight="250">
+   <img src="https://github.com/nikunj150/Clock_app/assets/141740390/1cc50dd5-7741-4da6-ae65-c1805565b362"hight="250">
 </p>
