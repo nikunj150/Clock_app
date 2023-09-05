@@ -12,7 +12,9 @@ class _DigitalclockState extends State<Digitalclock> {
       second = 0,
       month = 0,
       date = 0,
-      year =0;
+      year =0,
+      day=0;
+  String? dayname;
 
   @override
   void initState() {
@@ -47,7 +49,7 @@ class _DigitalclockState extends State<Digitalclock> {
               Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Text("Sunday",
+                  Text("$dayname",
                       style: TextStyle(
                           color: Colors.white,
                           fontWeight: FontWeight.bold,
@@ -96,6 +98,31 @@ class _DigitalclockState extends State<Digitalclock> {
         year = DateTime
             .now()
             .year;
+        day= DateTime.now().weekday;
+        switch(day)
+        {
+          case 0:
+            dayname="Sunday";
+            break;
+          case 1:
+            dayname="Monday";
+            break;
+          case 2:
+            dayname="Tuesday";
+            break;
+          case 3:
+            dayname="Wednesday";
+            break;
+          case 4:
+            dayname="Thursday";
+            break;
+          case 5:
+            dayname="Friday";
+            break;
+          case 6:
+            dayname="Saturday";
+            break;
+        }
         digitalclock();
       });
     }) ;

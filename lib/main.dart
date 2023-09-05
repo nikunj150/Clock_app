@@ -8,7 +8,7 @@ void main()
   runApp(
     MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Strapwatch(),
+      home: Analogclock(),
     ),
   );
 }
